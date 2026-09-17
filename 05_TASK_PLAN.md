@@ -88,11 +88,15 @@ dependencies:
 
 ## T06 — Network Transport Layer (Wi-Fi Discovery & Sync)
 **کارها:**
-- UDP Discovery
-- TCP Socket / Transport interface
-- MessageCodec
+- پیاده‌سازی `NetworkTransport` (رابط کلی شبکه)
+- پیاده‌سازی `WifiDiscovery` (پیدا کردن خودکار سرور با UDP Broadcast)
+- پیاده‌سازی `TcpTransport` (انتقال داده‌های مطمئن با TCP)
+- پیاده‌سازی `MessageCodec` (تبدیل پیام‌های بازی به بایت)
+- ایجاد منوی شبکه (Network Menu) برای انتخاب نقش Host یا Client
 
-**وضعیت:** 🔒 Locked
+**خروجی:** امکان ایجاد اتاق (Host) و پیدا کردن خودکار آن در لیست اتاق‌های موجود (Join).
+
+**وضعیت:** ✅ تکمیل شد
 
 ---
 

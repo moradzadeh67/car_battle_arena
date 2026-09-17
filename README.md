@@ -31,8 +31,8 @@ A mobile 3D Low-Poly Car Combat game built with Flutter and Dart.
 | **T02** | 3D Technical Spike (`flutter_scene` + `rapier` on Device) | ✅ Done |
 | **T03** | Car Controller & Follow Camera (Physics + Input) | ✅ Done |
 | **T05** | Core Combat Mechanics (Weapons & Health System) | ✅ Done |
-| **T06** | Network Transport Layer (Wi-Fi Discovery & Sync) | ⏳ Next |
-| **T07** | Multiplayer Integration & Authority Validation | 🔒 Locked |
+| **T06** | Network Transport Layer (Wi-Fi Discovery & Sync) | ✅ Done |
+| **T07** | Multiplayer Integration & Authority Validation | ⏳ Next |
 | **T08** | Polish, Audio & Visual Effects | 🔒 Locked |
 
 ---
