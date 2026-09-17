@@ -55,14 +55,11 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icon/app_icon.png"
-  web:
-    generate: true
-  windows:
-    generate: true
-  macos:
-    generate: true
-  linux:
-    generate: true
+  # Android 8+ uses two layers (adaptive icons). Without these two lines
+  # Android puts the logo on a white circle and shrinks it. Setting the
+  # background to black keeps the logo large on a black background.
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
 
 
 # For information on the generic Dart part of this file, see the
