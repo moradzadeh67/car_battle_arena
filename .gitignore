@@ -33,6 +33,15 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Ephemeral files the Flutter tool writes into each platform folder.
+# The per-platform .gitignore files used to cover these, but we removed the
+# platforms we do not ship, so we ignore them globally here instead.
+**/Flutter/ephemeral/
+**/flutter/ephemeral/
+
+# Local build configuration that must never be shared
+**/local.properties
+
 # Symbolication related
 app.*.symbols
 
